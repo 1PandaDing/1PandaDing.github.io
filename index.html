@@ -59,17 +59,21 @@
     <div class="container">
     <div class="starter-template">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-3" align="center">
+<!--      有时候我们相对单独某块做修改，可以将其定义成一个div，然后修改div的格式，两个属性之间空格就行，没有逗号-->
 			<img src="images/dingqi.png" alt="Ding Qi" class="img-rounded"
-            height="210px"/>
+            width="360" height="250"/>
+<!--      修改照片的宽度-->
 		</div>
-		<div class="col-md-7">
-			<h2>Ding Qi</h2>
-
+		<div class="col-md-7" align="center">
+			<h2 >Ding Qi</h2>
+ <!--对div的属性align做修改，可以使得文本居中，仔细注意格式-->
 			<p class="lead">
-			School of Automotive   &nbsp &nbsp
-			Tongji University  &nbsp &nbsp
-        <br>Email: 1854080@tongji.edu.cn
+			School of Automotive
+			Tongji University
+        <br>
+        Email: 1854080@tongji.edu.cn
+        <!--主要是说我对样式表的使用确实不够熟悉，这里文本居中应该是有css的方法的，我却使用了非常多的空格符号，比较低级-->
             </p>
 
 
@@ -89,13 +93,14 @@
 		[<a href="https://www.linkedin.com/in/jinxin">LinkedIn</a>]-->
 		</small></p>
        <p> <hr>
-        <h3>Academic Interest</h3>
+        <h3 style="text-align:center">Academic Interest</h3>
+<!--      这里用这个style让单行文字居中-->
          My research interests include energy systems analysis for the <b>transportation</b> sector, including energy management and climate policy,
           Low-carbon technology strategies, life cycle analysis, and transportation energy strategies.
 
 
         <hr>
-        <h3>Contests</h3>
+        <h3 style="text-align:center">Contests</h3>
       <font size="2">
 <!--        <p class="lead"><small>-->
 
@@ -114,24 +119,24 @@
           <br> <b>6.Third Prize in Shanghai, National University Mathematics Competition</b><br></font></b>
 </br>
       <hr>      <!--  hr是分割线-->
-           <h3>Awards</h3>
+           <h3 style="text-align:center">Awards</h3>
       <font size="2">National Scholarship（2020-2021,2021-2022）, Tongji University First Class Scholarship（2018-2019，2019-2020）<br>
         Outstanding Student of Tongji University（2018-2019）, CET-4: 655, CET-6: 641, CGT-6: Excellent</font>
 
-      <hr><h3>Research Experience</h3>
+      <hr><h3 style="text-align:center">Research Experience</h3>
       <font size="2"><b>1.Machine Learning-based Path Prediction for Electromagnetic Vehicles</b><br>
 &nbsp &nbsp  Based on the MobileNet-SSD detection algorithm, an end-to-end autonomous driving model was trained using the camera capture images after canny edge detection as input and the directional control information of the intelligent vehicle as output and deployed to the edge computing board. The design finally achieved stable autonomous driving of the intelligent vehicle even under the conditions of external disturbance and uneven lighting. Using fuzzy PID control, the PWM speed regulation of the intelligent vehicle was completed to maximize the speed of the vehicle while ensuring a smooth ride.
        <br> <b>2.Research on Millimeter Wave Radar of Human Posture and Vital Signs Sensing Technology</b>
         <br>&nbsp &nbsp  Based on the IWR6843 millimeter wave radar board, separate measurements of breathing and heartbeat signals were completed by differential filtering and variable modal decomposition to achieve multi-target detection of life features at different angles from the same distance. Based on the camera, the detection algorithm for driver blinking and head-down behavior was programmed, combined with face feature points recognition. Using python language, we fused two sets of detection algorithms for vital signs and facial posture to build a driver fatigue warning system and tested it in real vehicles.</font>
 
-<hr><h3>Social Activities</h3>
+<hr><h3 style="text-align:center">Social Activities</h3>
  <font size="2"><b>1.Member of Tu-Smart Car Team</b><br>
 &nbsp &nbsp   Responsible for the structural design and programming of smart cars, I have been invited to give scientific lectures on driverless technology and hold extra-curricular activities at Shanghai High School several times.
        <br> <b>2.Faculty Innovation and Entrepreneurship Base Officer</b>
    <br>&nbsp &nbsp  Regularly organizing academic discussions, participating in the recording and presentation of the online course "Automotive Vibration ", and engaging in many volunteer activities.</font>
 
 
-      <hr><h3>Internship</h3>
+      <hr><h3 style="text-align:center">Internship</h3>
 <font size="2"><b>1.NIO - Digital Cockpit Department - Project Management </b><br>
 &nbsp &nbsp   During my internship at NIO, I was involved in the project management of the NIO NT2 and NT3 software platforms, driving all departments through a series of processes from requirements elicitation, development scheduling and test flow in an agile and efficient manner.
        <br> <b>2.IMMOTORS - Strategic Department - Consumer Insight</b>
